@@ -1,0 +1,34 @@
+# deps
+node_modules/
+.pnpm-store/
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# data & artifacts
+data/
+artifacts/
+*.csv
+*.parquet
+*.sqlite
+*.db
+
+# logs
+*.log
+logs/
+
+# editor / os
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
